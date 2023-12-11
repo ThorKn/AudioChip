@@ -4,9 +4,14 @@
 
 ## Description
 
-This is an audio chip that outputs PWM. The source code of AudioChip is written in spinalHDL and resides here in branch ```gf180```:
+This is an AudioChip that outputs two Audiosignals as PWM. It can be used as a audio generating device for electronic instruments, namely modular synthesizers. It is planned to build a Eurorack module for a modular synthesizer around this mikrochip. The inputs and outputs are designed to fit into the concept of such instruments. The source code of AudioChip is written in spinalHDL and resides here in branch ```gf180```:
 
 https://github.com/ThorKn/icestick_spinalHDL_pwmAudio
+
+## Prototype
+A FPGA based prototype of this chip was done and tested with various other parts of Eurorack modular synthesizers.
+
+![Alt text](prototype.jpg?raw=true "AudioChip Prototype")
 
 ## Features
 
