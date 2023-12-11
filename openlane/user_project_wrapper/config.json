@@ -6,23 +6,23 @@
 		"dir::../../verilog/rtl/defines.v",
 		"dir::../../verilog/rtl/user_project_wrapper.v"
 	],
-	"CLOCK_PORT": "wb_clk_i",
-	"CLOCK_NET": "mprj.clk",
+	"CLOCK_PORT": "clk",
+	"CLOCK_NET": "pwmaudio.clk",
 	"CLOCK_PERIOD": 25,
 	"MACRO_PLACEMENT_CFG": "dir::macro.cfg",
 	"VERILOG_FILES_BLACKBOX": [
-		"dir::../../verilog/gl/user_proj_example.v"
+		"dir::../../verilog/gl/PWMaudio.v"
 	],
-	"EXTRA_LEFS": "dir::../../lef/user_proj_example.lef",
-	"EXTRA_GDS_FILES": "dir::../../gds/user_proj_example.gds",
-	"EXTRA_LIBS": "dir::../../lib/user_proj_example.lib",
+	"EXTRA_LEFS": "dir::../../lef/PWMaudio.lef",
+	"EXTRA_GDS_FILES": "dir::../../gds/PWMaudio.gds",
+	"EXTRA_LIBS": "dir::../../lib/PWMaudio.lib",
 	"EXTRA_SPEFS": [
-		"user_proj_example",
-		"dir::../../spef/multicorner/user_proj_example.min.spef",
-		"dir::../../spef/multicorner/user_proj_example.nom.spef",
-		"dir::../../spef/multicorner/user_proj_example.max.spef"
+		"PWMaudio",
+		"dir::../../spef/multicorner/PWMaudio.min.spef",
+		"dir::../../spef/multicorner/PWMaudio.nom.spef",
+		"dir::../../spef/multicorner/PWMaudio.max.spef"
 	],
-	"FP_PDN_MACRO_HOOKS": "mprj vdd vss vdd vss",
+	"FP_PDN_MACRO_HOOKS": "pwmaudio vdd vss vdd vss",
 	"QUIT_ON_SYNTH_CHECKS": 0,
 	"FP_PDN_CHECK_NODES": 0,
 	"SYNTH_ELABORATE_ONLY": 1,

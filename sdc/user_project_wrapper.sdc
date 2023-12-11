@@ -1,15 +1,13 @@
 ###############################################################################
 # Created by write_sdc
-# Tue Oct 17 13:01:10 2023
+# Mon Dec 11 17:37:10 2023
 ###############################################################################
 current_design user_project_wrapper
 ###############################################################################
 # Timing Constraints
 ###############################################################################
-create_clock -name clk -period 25.0000 [get_ports {wb_clk_i}]
-set_clock_transition 0.1500 [get_clocks {clk}]
+create_clock -name clk -period 25.0000 
 set_clock_uncertainty 0.2500 clk
-set_propagated_clock [get_clocks {clk}]
 set_clock_latency -source -min 4.6500 [get_clocks {clk}]
 set_clock_latency -source -max 5.5700 [get_clocks {clk}]
 set_input_delay 0.1800 -clock [get_clocks {clk}] -min -add_delay [get_ports {la_data_in[0]}]
@@ -798,7 +796,6 @@ set_load -pin_load 0.1900 [get_ports {wbs_dat_o[3]}]
 set_load -pin_load 0.1900 [get_ports {wbs_dat_o[2]}]
 set_load -pin_load 0.1900 [get_ports {wbs_dat_o[1]}]
 set_load -pin_load 0.1900 [get_ports {wbs_dat_o[0]}]
-set_input_transition 0.6100 [get_ports {wb_clk_i}]
 set_input_transition -min 0.0900 [get_ports {wbs_cyc_i}]
 set_input_transition -max 0.1700 [get_ports {wbs_cyc_i}]
 set_input_transition 0.1500 [get_ports {wbs_stb_i}]

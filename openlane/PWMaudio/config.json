@@ -1,0 +1,30 @@
+{
+	"PDK": "gf180mcuD",
+	"STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+	"DESIGN_NAME": "PWMaudio",
+	"VERILOG_FILES": [
+		"dir::../../verilog/rtl/defines.v",
+		"dir::../../verilog/rtl/PWMaudio.v"
+	],
+	"DESIGN_IS_CORE": 0,
+	"CLOCK_PORT": "clk",
+	"CLOCK_NET": "PWMaudio.clk",
+	"CLOCK_PERIOD": "10.0",
+	"FP_SIZING": "absolute",
+	"DIE_AREA": "0 0 2800 1200",
+	"PL_BASIC_PLACEMENT": 0,
+	"PL_TARGET_DENSITY": 0.40,
+	"FP_CORE_UTIL": 35,
+	"MAX_FANOUT_CONSTRAINT": 4,
+	"RT_MAX_LAYER": "Metal4",
+	"VDD_NETS": [
+		"vdd"
+	],
+	"GND_NETS": [
+		"vss"
+	],
+	"RUN_HEURISTIC_DIODE_INSERTION": 1,
+	"RUN_CVC": 1,
+	"QUIT_ON_LINTER_ERRORS": 0,
+	"ROUTING_CORES": "12"
+}

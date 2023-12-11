@@ -1,0 +1,290 @@
+OpenROAD bdc8e944cd08ba8edebeca19fa531bd026690330 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+pdk(libs) defined as:
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_io/liberty/gf180mcu_fd_io__tt_025C_5v00.lib
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram128x8m8wm1__tt_025C_5v00.lib
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram256x8m8wm1__tt_025C_5v00.lib
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram512x8m8wm1__tt_025C_5v00.lib
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram64x8m8wm1__tt_025C_5v00.lib
+pdk(lefs) defined as:
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__min.tlef
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_io/lef/gf180mcu_fd_io.lef
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram128x8m8wm1.lef
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram256x8m8wm1.lef
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef
+/home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram64x8m8wm1.lef
+verilog exception: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/__user_analog_project_wrapper.v
+removing /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/__user_analog_project_wrapper.v from verilogs list
+verilog exception: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/caravel-signoff.v
+removing /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/caravel-signoff.v from verilogs list
+verilog exception: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/caravan-signoff.v
+removing /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/caravan-signoff.v from verilogs list
+verilog exception: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/__user_project_wrapper.v
+removing /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/verilog/gl/__user_project_wrapper.v from verilogs list
+exec> read_liberty /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib
+exec> read_liberty /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_io/liberty/gf180mcu_fd_io__tt_025C_5v00.lib
+exec> read_liberty /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram128x8m8wm1__tt_025C_5v00.lib
+exec> read_liberty /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram256x8m8wm1__tt_025C_5v00.lib
+exec> read_liberty /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram512x8m8wm1__tt_025C_5v00.lib
+exec> read_liberty /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram64x8m8wm1__tt_025C_5v00.lib
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__min.tlef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__min.tlef
+[INFO ODB-0388] unsupported LEF58_EOLENCLOSURE property for layer Via1 :"
+  	EOLENCLOSURE 0.34 0.06 ;"
+[INFO ODB-0388] unsupported LEF58_EOLENCLOSURE property for layer Via2 :" EOLENCLOSURE 0.34 0.06 ; "
+[INFO ODB-0388] unsupported LEF58_EOLENCLOSURE property for layer Via3 :" EOLENCLOSURE 0.34 0.06 ; "
+[INFO ODB-0388] unsupported LEF58_EOLENCLOSURE property for layer Via4 :" EOLENCLOSURE 0.34 0.06 ; "
+[INFO ODB-0223]     Created 15 technology layers
+[INFO ODB-0224]     Created 56 technology vias
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__min.tlef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef at line 2.
+
+[INFO ODB-0225]     Created 229 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_io/lef/gf180mcu_fd_io.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_io/lef/gf180mcu_fd_io.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_io/lef/gf180mcu_fd_io.lef at line 2.
+
+[WARNING ODB-0186] macro gf180mcu_fd_io__asig_5p0 references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__bi_24t references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__bi_t references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__brk2 references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__brk5 references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__cor references unknown site GF_COR_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__dvdd references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__dvss references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__fill1 references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__fill5 references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__fill10 references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__fillnc references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__in_c references unknown site GF_IO_Site
+[WARNING ODB-0186] macro gf180mcu_fd_io__in_s references unknown site GF_IO_Site
+[INFO ODB-0225]     Created 14 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_io/lef/gf180mcu_fd_io.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram128x8m8wm1.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram128x8m8wm1.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram128x8m8wm1.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram256x8m8wm1.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram256x8m8wm1.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram256x8m8wm1.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram64x8m8wm1.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram64x8m8wm1.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram64x8m8wm1.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_motto.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_motto.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_motto.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_motto.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_009.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_009.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_009.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_009.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper_PnR.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper_PnR.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper_PnR.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper_PnR.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_power_routing.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_power_routing.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_power_routing.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_power_routing.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_textblock.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_textblock.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_textblock.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_textblock.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/chip_io.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/chip_io.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/chip_io.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/chip_io.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_core.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_core.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_core.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_core.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/housekeeping.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/housekeeping.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/housekeeping.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/housekeeping.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/open_source.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/open_source.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/open_source.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/open_source.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/mprj_io_buffer.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/mprj_io_buffer.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/mprj_io_buffer.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/mprj_io_buffer.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/copyright_block.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/copyright_block.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/copyright_block.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/copyright_block.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_logo.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_logo.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_logo.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/caravel_logo.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/spare_logic_block.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/spare_logic_block.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/spare_logic_block.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/spare_logic_block.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_project_wrapper.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_087.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_087.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_087.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_087.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_programming.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_programming.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_programming.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/user_id_programming.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_007.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_007.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_007.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/lef/gpio_defaults_block_007.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/mgmt_core_wrapper/lef/gf180_ram_512x8_wrapper.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/mgmt_core_wrapper/lef/gf180_ram_512x8_wrapper.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/mgmt_core_wrapper/lef/gf180_ram_512x8_wrapper.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/mgmt_core_wrapper/lef/gf180_ram_512x8_wrapper.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/user_proj_example.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/user_proj_example.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/user_proj_example.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/user_proj_example.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/PWMaudio.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/PWMaudio.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/PWMaudio.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/PWMaudio.lef
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/lef/user_project_wrapper.lef
+[WARNING ODB-0229] Error: library (user_project_wrapper) already exists
+exec> read_lef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/macros/simple_por/lef/simple_por.lef
+[INFO ODB-0222] Reading LEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/macros/simple_por/lef/simple_por.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/macros/simple_por/lef/simple_por.lef at line 2.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/caravel/macros/simple_por/lef/simple_por.lef
+exec> read_def /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user_project_wrapper.def
+[INFO ODB-0127] Reading DEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user_project_wrapper.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0130]     Created 418 pins.
+[INFO ODB-0131]     Created 1 components and 22 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2 connections.
+[INFO ODB-0133]     Created 416 nets and 20 connections.
+[INFO ODB-0134] Finished DEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user_project_wrapper.def
+exec> define_process_corner -ext_model_index 0 X
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+exec> extract_parasitics  -ext_model_file /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.tech//openlane/rules.openrcx.gf180mcuD.min  -lef_res
+[INFO RCX-0008] extracting parasitics of user_project_wrapper ...
+[INFO RCX-0435] Reading extraction model file /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.tech//openlane/rules.openrcx.gf180mcuD.min ...
+[INFO RCX-0436] RC segment generation user_project_wrapper (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 88 rc segments
+[INFO RCX-0439] Coupling Cap extraction user_project_wrapper ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 206 wires to be extracted
+[INFO RCX-0442] 18% completion -- 39 wires have been extracted
+[INFO RCX-0442] 28% completion -- 59 wires have been extracted
+[INFO RCX-0442] 40% completion -- 83 wires have been extracted
+[INFO RCX-0442] 47% completion -- 97 wires have been extracted
+[INFO RCX-0442] 55% completion -- 115 wires have been extracted
+[INFO RCX-0442] 70% completion -- 145 wires have been extracted
+[INFO RCX-0442] 89% completion -- 184 wires have been extracted
+[INFO RCX-0442] 93% completion -- 193 wires have been extracted
+[INFO RCX-0442] 100% completion -- 206 wires have been extracted
+[INFO RCX-0045] Extract 416 nets, 108 rsegs, 108 caps, 66 ccs
+[INFO RCX-0015] Finished extracting user_project_wrapper.
+exec> write_spef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/user_project_wrapper/openlane-signoff/spef/user_project_wrapper.min.spef
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 416 nets finished
+[INFO RCX-0017] Finished writing SPEF ...
+exec> read_spef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/user_project_wrapper/openlane-signoff/spef/user_project_wrapper.min.spef
+spef: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/user_project_wrapper/openlane-signoff/spef/user_project_wrapper.min.spef
+def: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user_project_wrapper.def
+rcx: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.tech//openlane/rules.openrcx.gf180mcuD.min
+rcx-corner: min
+lib-corner: t.tcl
+tech_lef: /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.ref//gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__min.tlef

@@ -1,0 +1,1341 @@
+*SPEF "ieee 1481-1999"
+*DESIGN "user_project_wrapper"
+*DATE "11:11:11 Fri 11 11, 1111"
+*VENDOR "OpenRCX"
+*PROGRAM "Parallel Extraction"
+*VERSION "1.0"
+*DESIGN_FLOW "NAME_SCOPE LOCAL" "PIN_CAP NONE"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1 NS
+*C_UNIT 1 PF
+*R_UNIT 1 OHM
+*L_UNIT 1 HENRY
+
+*NAME_MAP
+*1 io_in[0]
+*2 io_in[10]
+*3 io_in[11]
+*4 io_in[12]
+*5 io_in[13]
+*6 io_in[14]
+*7 io_in[15]
+*8 io_in[16]
+*9 io_in[17]
+*10 io_in[18]
+*11 io_in[19]
+*12 io_in[1]
+*13 io_in[20]
+*14 io_in[21]
+*15 io_in[22]
+*16 io_in[23]
+*17 io_in[24]
+*18 io_in[25]
+*19 io_in[26]
+*20 io_in[27]
+*21 io_in[28]
+*22 io_in[29]
+*23 io_in[2]
+*24 io_in[30]
+*25 io_in[31]
+*26 io_in[32]
+*27 io_in[33]
+*28 io_in[34]
+*29 io_in[35]
+*30 io_in[36]
+*31 io_in[37]
+*32 io_in[3]
+*33 io_in[4]
+*34 io_in[5]
+*35 io_in[6]
+*36 io_in[7]
+*37 io_in[8]
+*38 io_in[9]
+*39 io_oeb[0]
+*40 io_oeb[10]
+*41 io_oeb[11]
+*42 io_oeb[12]
+*43 io_oeb[13]
+*44 io_oeb[14]
+*45 io_oeb[15]
+*46 io_oeb[16]
+*47 io_oeb[17]
+*48 io_oeb[18]
+*49 io_oeb[19]
+*50 io_oeb[1]
+*51 io_oeb[20]
+*52 io_oeb[21]
+*53 io_oeb[22]
+*54 io_oeb[23]
+*55 io_oeb[24]
+*56 io_oeb[25]
+*57 io_oeb[26]
+*58 io_oeb[27]
+*59 io_oeb[28]
+*60 io_oeb[29]
+*61 io_oeb[2]
+*62 io_oeb[30]
+*63 io_oeb[31]
+*64 io_oeb[32]
+*65 io_oeb[33]
+*66 io_oeb[34]
+*67 io_oeb[35]
+*68 io_oeb[36]
+*69 io_oeb[37]
+*70 io_oeb[3]
+*71 io_oeb[4]
+*72 io_oeb[5]
+*73 io_oeb[6]
+*74 io_oeb[7]
+*75 io_oeb[8]
+*76 io_oeb[9]
+*77 io_out[0]
+*78 io_out[10]
+*79 io_out[11]
+*80 io_out[12]
+*81 io_out[13]
+*82 io_out[14]
+*83 io_out[15]
+*84 io_out[16]
+*85 io_out[17]
+*86 io_out[18]
+*87 io_out[19]
+*88 io_out[1]
+*89 io_out[20]
+*90 io_out[21]
+*91 io_out[22]
+*92 io_out[23]
+*93 io_out[24]
+*94 io_out[25]
+*95 io_out[26]
+*96 io_out[27]
+*97 io_out[28]
+*98 io_out[29]
+*99 io_out[2]
+*100 io_out[30]
+*101 io_out[31]
+*102 io_out[32]
+*103 io_out[33]
+*104 io_out[34]
+*105 io_out[35]
+*106 io_out[36]
+*107 io_out[37]
+*108 io_out[3]
+*109 io_out[4]
+*110 io_out[5]
+*111 io_out[6]
+*112 io_out[7]
+*113 io_out[8]
+*114 io_out[9]
+*115 la_data_in[0]
+*116 la_data_in[10]
+*117 la_data_in[11]
+*118 la_data_in[12]
+*119 la_data_in[13]
+*120 la_data_in[14]
+*121 la_data_in[15]
+*122 la_data_in[16]
+*123 la_data_in[17]
+*124 la_data_in[18]
+*125 la_data_in[19]
+*126 la_data_in[1]
+*127 la_data_in[20]
+*128 la_data_in[21]
+*129 la_data_in[22]
+*130 la_data_in[23]
+*131 la_data_in[24]
+*132 la_data_in[25]
+*133 la_data_in[26]
+*134 la_data_in[27]
+*135 la_data_in[28]
+*136 la_data_in[29]
+*137 la_data_in[2]
+*138 la_data_in[30]
+*139 la_data_in[31]
+*140 la_data_in[32]
+*141 la_data_in[33]
+*142 la_data_in[34]
+*143 la_data_in[35]
+*144 la_data_in[36]
+*145 la_data_in[37]
+*146 la_data_in[38]
+*147 la_data_in[39]
+*148 la_data_in[3]
+*149 la_data_in[40]
+*150 la_data_in[41]
+*151 la_data_in[42]
+*152 la_data_in[43]
+*153 la_data_in[44]
+*154 la_data_in[45]
+*155 la_data_in[46]
+*156 la_data_in[47]
+*157 la_data_in[48]
+*158 la_data_in[49]
+*159 la_data_in[4]
+*160 la_data_in[50]
+*161 la_data_in[51]
+*162 la_data_in[52]
+*163 la_data_in[53]
+*164 la_data_in[54]
+*165 la_data_in[55]
+*166 la_data_in[56]
+*167 la_data_in[57]
+*168 la_data_in[58]
+*169 la_data_in[59]
+*170 la_data_in[5]
+*171 la_data_in[60]
+*172 la_data_in[61]
+*173 la_data_in[62]
+*174 la_data_in[63]
+*175 la_data_in[6]
+*176 la_data_in[7]
+*177 la_data_in[8]
+*178 la_data_in[9]
+*179 la_data_out[0]
+*180 la_data_out[10]
+*181 la_data_out[11]
+*182 la_data_out[12]
+*183 la_data_out[13]
+*184 la_data_out[14]
+*185 la_data_out[15]
+*186 la_data_out[16]
+*187 la_data_out[17]
+*188 la_data_out[18]
+*189 la_data_out[19]
+*190 la_data_out[1]
+*191 la_data_out[20]
+*192 la_data_out[21]
+*193 la_data_out[22]
+*194 la_data_out[23]
+*195 la_data_out[24]
+*196 la_data_out[25]
+*197 la_data_out[26]
+*198 la_data_out[27]
+*199 la_data_out[28]
+*200 la_data_out[29]
+*201 la_data_out[2]
+*202 la_data_out[30]
+*203 la_data_out[31]
+*204 la_data_out[32]
+*205 la_data_out[33]
+*206 la_data_out[34]
+*207 la_data_out[35]
+*208 la_data_out[36]
+*209 la_data_out[37]
+*210 la_data_out[38]
+*211 la_data_out[39]
+*212 la_data_out[3]
+*213 la_data_out[40]
+*214 la_data_out[41]
+*215 la_data_out[42]
+*216 la_data_out[43]
+*217 la_data_out[44]
+*218 la_data_out[45]
+*219 la_data_out[46]
+*220 la_data_out[47]
+*221 la_data_out[48]
+*222 la_data_out[49]
+*223 la_data_out[4]
+*224 la_data_out[50]
+*225 la_data_out[51]
+*226 la_data_out[52]
+*227 la_data_out[53]
+*228 la_data_out[54]
+*229 la_data_out[55]
+*230 la_data_out[56]
+*231 la_data_out[57]
+*232 la_data_out[58]
+*233 la_data_out[59]
+*234 la_data_out[5]
+*235 la_data_out[60]
+*236 la_data_out[61]
+*237 la_data_out[62]
+*238 la_data_out[63]
+*239 la_data_out[6]
+*240 la_data_out[7]
+*241 la_data_out[8]
+*242 la_data_out[9]
+*243 la_oenb[0]
+*244 la_oenb[10]
+*245 la_oenb[11]
+*246 la_oenb[12]
+*247 la_oenb[13]
+*248 la_oenb[14]
+*249 la_oenb[15]
+*250 la_oenb[16]
+*251 la_oenb[17]
+*252 la_oenb[18]
+*253 la_oenb[19]
+*254 la_oenb[1]
+*255 la_oenb[20]
+*256 la_oenb[21]
+*257 la_oenb[22]
+*258 la_oenb[23]
+*259 la_oenb[24]
+*260 la_oenb[25]
+*261 la_oenb[26]
+*262 la_oenb[27]
+*263 la_oenb[28]
+*264 la_oenb[29]
+*265 la_oenb[2]
+*266 la_oenb[30]
+*267 la_oenb[31]
+*268 la_oenb[32]
+*269 la_oenb[33]
+*270 la_oenb[34]
+*271 la_oenb[35]
+*272 la_oenb[36]
+*273 la_oenb[37]
+*274 la_oenb[38]
+*275 la_oenb[39]
+*276 la_oenb[3]
+*277 la_oenb[40]
+*278 la_oenb[41]
+*279 la_oenb[42]
+*280 la_oenb[43]
+*281 la_oenb[44]
+*282 la_oenb[45]
+*283 la_oenb[46]
+*284 la_oenb[47]
+*285 la_oenb[48]
+*286 la_oenb[49]
+*287 la_oenb[4]
+*288 la_oenb[50]
+*289 la_oenb[51]
+*290 la_oenb[52]
+*291 la_oenb[53]
+*292 la_oenb[54]
+*293 la_oenb[55]
+*294 la_oenb[56]
+*295 la_oenb[57]
+*296 la_oenb[58]
+*297 la_oenb[59]
+*298 la_oenb[5]
+*299 la_oenb[60]
+*300 la_oenb[61]
+*301 la_oenb[62]
+*302 la_oenb[63]
+*303 la_oenb[6]
+*304 la_oenb[7]
+*305 la_oenb[8]
+*306 la_oenb[9]
+*307 user_clock2
+*308 user_irq[0]
+*309 user_irq[1]
+*310 user_irq[2]
+*313 wb_clk_i
+*314 wb_rst_i
+*315 wbs_ack_o
+*316 wbs_adr_i[0]
+*317 wbs_adr_i[10]
+*318 wbs_adr_i[11]
+*319 wbs_adr_i[12]
+*320 wbs_adr_i[13]
+*321 wbs_adr_i[14]
+*322 wbs_adr_i[15]
+*323 wbs_adr_i[16]
+*324 wbs_adr_i[17]
+*325 wbs_adr_i[18]
+*326 wbs_adr_i[19]
+*327 wbs_adr_i[1]
+*328 wbs_adr_i[20]
+*329 wbs_adr_i[21]
+*330 wbs_adr_i[22]
+*331 wbs_adr_i[23]
+*332 wbs_adr_i[24]
+*333 wbs_adr_i[25]
+*334 wbs_adr_i[26]
+*335 wbs_adr_i[27]
+*336 wbs_adr_i[28]
+*337 wbs_adr_i[29]
+*338 wbs_adr_i[2]
+*339 wbs_adr_i[30]
+*340 wbs_adr_i[31]
+*341 wbs_adr_i[3]
+*342 wbs_adr_i[4]
+*343 wbs_adr_i[5]
+*344 wbs_adr_i[6]
+*345 wbs_adr_i[7]
+*346 wbs_adr_i[8]
+*347 wbs_adr_i[9]
+*348 wbs_cyc_i
+*349 wbs_dat_i[0]
+*350 wbs_dat_i[10]
+*351 wbs_dat_i[11]
+*352 wbs_dat_i[12]
+*353 wbs_dat_i[13]
+*354 wbs_dat_i[14]
+*355 wbs_dat_i[15]
+*356 wbs_dat_i[16]
+*357 wbs_dat_i[17]
+*358 wbs_dat_i[18]
+*359 wbs_dat_i[19]
+*360 wbs_dat_i[1]
+*361 wbs_dat_i[20]
+*362 wbs_dat_i[21]
+*363 wbs_dat_i[22]
+*364 wbs_dat_i[23]
+*365 wbs_dat_i[24]
+*366 wbs_dat_i[25]
+*367 wbs_dat_i[26]
+*368 wbs_dat_i[27]
+*369 wbs_dat_i[28]
+*370 wbs_dat_i[29]
+*371 wbs_dat_i[2]
+*372 wbs_dat_i[30]
+*373 wbs_dat_i[31]
+*374 wbs_dat_i[3]
+*375 wbs_dat_i[4]
+*376 wbs_dat_i[5]
+*377 wbs_dat_i[6]
+*378 wbs_dat_i[7]
+*379 wbs_dat_i[8]
+*380 wbs_dat_i[9]
+*381 wbs_dat_o[0]
+*382 wbs_dat_o[10]
+*383 wbs_dat_o[11]
+*384 wbs_dat_o[12]
+*385 wbs_dat_o[13]
+*386 wbs_dat_o[14]
+*387 wbs_dat_o[15]
+*388 wbs_dat_o[16]
+*389 wbs_dat_o[17]
+*390 wbs_dat_o[18]
+*391 wbs_dat_o[19]
+*392 wbs_dat_o[1]
+*393 wbs_dat_o[20]
+*394 wbs_dat_o[21]
+*395 wbs_dat_o[22]
+*396 wbs_dat_o[23]
+*397 wbs_dat_o[24]
+*398 wbs_dat_o[25]
+*399 wbs_dat_o[26]
+*400 wbs_dat_o[27]
+*401 wbs_dat_o[28]
+*402 wbs_dat_o[29]
+*403 wbs_dat_o[2]
+*404 wbs_dat_o[30]
+*405 wbs_dat_o[31]
+*406 wbs_dat_o[3]
+*407 wbs_dat_o[4]
+*408 wbs_dat_o[5]
+*409 wbs_dat_o[6]
+*410 wbs_dat_o[7]
+*411 wbs_dat_o[8]
+*412 wbs_dat_o[9]
+*413 wbs_sel_i[0]
+*414 wbs_sel_i[1]
+*415 wbs_sel_i[2]
+*416 wbs_sel_i[3]
+*417 wbs_stb_i
+*418 wbs_we_i
+*419 pwmaudio
+
+*PORTS
+io_in[0] I
+io_in[10] I
+io_in[11] I
+io_in[12] I
+io_in[13] I
+io_in[14] I
+io_in[15] I
+io_in[16] I
+io_in[17] I
+io_in[18] I
+io_in[19] I
+io_in[1] I
+io_in[20] I
+io_in[21] I
+io_in[22] I
+io_in[23] I
+io_in[24] I
+io_in[25] I
+io_in[26] I
+io_in[27] I
+io_in[28] I
+io_in[29] I
+io_in[2] I
+io_in[30] I
+io_in[31] I
+io_in[32] I
+io_in[33] I
+io_in[34] I
+io_in[35] I
+io_in[36] I
+io_in[37] I
+io_in[3] I
+io_in[4] I
+io_in[5] I
+io_in[6] I
+io_in[7] I
+io_in[8] I
+io_in[9] I
+io_oeb[0] O
+io_oeb[10] O
+io_oeb[11] O
+io_oeb[12] O
+io_oeb[13] O
+io_oeb[14] O
+io_oeb[15] O
+io_oeb[16] O
+io_oeb[17] O
+io_oeb[18] O
+io_oeb[19] O
+io_oeb[1] O
+io_oeb[20] O
+io_oeb[21] O
+io_oeb[22] O
+io_oeb[23] O
+io_oeb[24] O
+io_oeb[25] O
+io_oeb[26] O
+io_oeb[27] O
+io_oeb[28] O
+io_oeb[29] O
+io_oeb[2] O
+io_oeb[30] O
+io_oeb[31] O
+io_oeb[32] O
+io_oeb[33] O
+io_oeb[34] O
+io_oeb[35] O
+io_oeb[36] O
+io_oeb[37] O
+io_oeb[3] O
+io_oeb[4] O
+io_oeb[5] O
+io_oeb[6] O
+io_oeb[7] O
+io_oeb[8] O
+io_oeb[9] O
+io_out[0] O
+io_out[10] O
+io_out[11] O
+io_out[12] O
+io_out[13] O
+io_out[14] O
+io_out[15] O
+io_out[16] O
+io_out[17] O
+io_out[18] O
+io_out[19] O
+io_out[1] O
+io_out[20] O
+io_out[21] O
+io_out[22] O
+io_out[23] O
+io_out[24] O
+io_out[25] O
+io_out[26] O
+io_out[27] O
+io_out[28] O
+io_out[29] O
+io_out[2] O
+io_out[30] O
+io_out[31] O
+io_out[32] O
+io_out[33] O
+io_out[34] O
+io_out[35] O
+io_out[36] O
+io_out[37] O
+io_out[3] O
+io_out[4] O
+io_out[5] O
+io_out[6] O
+io_out[7] O
+io_out[8] O
+io_out[9] O
+la_data_in[0] I
+la_data_in[10] I
+la_data_in[11] I
+la_data_in[12] I
+la_data_in[13] I
+la_data_in[14] I
+la_data_in[15] I
+la_data_in[16] I
+la_data_in[17] I
+la_data_in[18] I
+la_data_in[19] I
+la_data_in[1] I
+la_data_in[20] I
+la_data_in[21] I
+la_data_in[22] I
+la_data_in[23] I
+la_data_in[24] I
+la_data_in[25] I
+la_data_in[26] I
+la_data_in[27] I
+la_data_in[28] I
+la_data_in[29] I
+la_data_in[2] I
+la_data_in[30] I
+la_data_in[31] I
+la_data_in[32] I
+la_data_in[33] I
+la_data_in[34] I
+la_data_in[35] I
+la_data_in[36] I
+la_data_in[37] I
+la_data_in[38] I
+la_data_in[39] I
+la_data_in[3] I
+la_data_in[40] I
+la_data_in[41] I
+la_data_in[42] I
+la_data_in[43] I
+la_data_in[44] I
+la_data_in[45] I
+la_data_in[46] I
+la_data_in[47] I
+la_data_in[48] I
+la_data_in[49] I
+la_data_in[4] I
+la_data_in[50] I
+la_data_in[51] I
+la_data_in[52] I
+la_data_in[53] I
+la_data_in[54] I
+la_data_in[55] I
+la_data_in[56] I
+la_data_in[57] I
+la_data_in[58] I
+la_data_in[59] I
+la_data_in[5] I
+la_data_in[60] I
+la_data_in[61] I
+la_data_in[62] I
+la_data_in[63] I
+la_data_in[6] I
+la_data_in[7] I
+la_data_in[8] I
+la_data_in[9] I
+la_data_out[0] O
+la_data_out[10] O
+la_data_out[11] O
+la_data_out[12] O
+la_data_out[13] O
+la_data_out[14] O
+la_data_out[15] O
+la_data_out[16] O
+la_data_out[17] O
+la_data_out[18] O
+la_data_out[19] O
+la_data_out[1] O
+la_data_out[20] O
+la_data_out[21] O
+la_data_out[22] O
+la_data_out[23] O
+la_data_out[24] O
+la_data_out[25] O
+la_data_out[26] O
+la_data_out[27] O
+la_data_out[28] O
+la_data_out[29] O
+la_data_out[2] O
+la_data_out[30] O
+la_data_out[31] O
+la_data_out[32] O
+la_data_out[33] O
+la_data_out[34] O
+la_data_out[35] O
+la_data_out[36] O
+la_data_out[37] O
+la_data_out[38] O
+la_data_out[39] O
+la_data_out[3] O
+la_data_out[40] O
+la_data_out[41] O
+la_data_out[42] O
+la_data_out[43] O
+la_data_out[44] O
+la_data_out[45] O
+la_data_out[46] O
+la_data_out[47] O
+la_data_out[48] O
+la_data_out[49] O
+la_data_out[4] O
+la_data_out[50] O
+la_data_out[51] O
+la_data_out[52] O
+la_data_out[53] O
+la_data_out[54] O
+la_data_out[55] O
+la_data_out[56] O
+la_data_out[57] O
+la_data_out[58] O
+la_data_out[59] O
+la_data_out[5] O
+la_data_out[60] O
+la_data_out[61] O
+la_data_out[62] O
+la_data_out[63] O
+la_data_out[6] O
+la_data_out[7] O
+la_data_out[8] O
+la_data_out[9] O
+la_oenb[0] I
+la_oenb[10] I
+la_oenb[11] I
+la_oenb[12] I
+la_oenb[13] I
+la_oenb[14] I
+la_oenb[15] I
+la_oenb[16] I
+la_oenb[17] I
+la_oenb[18] I
+la_oenb[19] I
+la_oenb[1] I
+la_oenb[20] I
+la_oenb[21] I
+la_oenb[22] I
+la_oenb[23] I
+la_oenb[24] I
+la_oenb[25] I
+la_oenb[26] I
+la_oenb[27] I
+la_oenb[28] I
+la_oenb[29] I
+la_oenb[2] I
+la_oenb[30] I
+la_oenb[31] I
+la_oenb[32] I
+la_oenb[33] I
+la_oenb[34] I
+la_oenb[35] I
+la_oenb[36] I
+la_oenb[37] I
+la_oenb[38] I
+la_oenb[39] I
+la_oenb[3] I
+la_oenb[40] I
+la_oenb[41] I
+la_oenb[42] I
+la_oenb[43] I
+la_oenb[44] I
+la_oenb[45] I
+la_oenb[46] I
+la_oenb[47] I
+la_oenb[48] I
+la_oenb[49] I
+la_oenb[4] I
+la_oenb[50] I
+la_oenb[51] I
+la_oenb[52] I
+la_oenb[53] I
+la_oenb[54] I
+la_oenb[55] I
+la_oenb[56] I
+la_oenb[57] I
+la_oenb[58] I
+la_oenb[59] I
+la_oenb[5] I
+la_oenb[60] I
+la_oenb[61] I
+la_oenb[62] I
+la_oenb[63] I
+la_oenb[6] I
+la_oenb[7] I
+la_oenb[8] I
+la_oenb[9] I
+user_clock2 I
+user_irq[0] O
+user_irq[1] O
+user_irq[2] O
+wb_clk_i I
+wb_rst_i I
+wbs_ack_o O
+wbs_adr_i[0] I
+wbs_adr_i[10] I
+wbs_adr_i[11] I
+wbs_adr_i[12] I
+wbs_adr_i[13] I
+wbs_adr_i[14] I
+wbs_adr_i[15] I
+wbs_adr_i[16] I
+wbs_adr_i[17] I
+wbs_adr_i[18] I
+wbs_adr_i[19] I
+wbs_adr_i[1] I
+wbs_adr_i[20] I
+wbs_adr_i[21] I
+wbs_adr_i[22] I
+wbs_adr_i[23] I
+wbs_adr_i[24] I
+wbs_adr_i[25] I
+wbs_adr_i[26] I
+wbs_adr_i[27] I
+wbs_adr_i[28] I
+wbs_adr_i[29] I
+wbs_adr_i[2] I
+wbs_adr_i[30] I
+wbs_adr_i[31] I
+wbs_adr_i[3] I
+wbs_adr_i[4] I
+wbs_adr_i[5] I
+wbs_adr_i[6] I
+wbs_adr_i[7] I
+wbs_adr_i[8] I
+wbs_adr_i[9] I
+wbs_cyc_i I
+wbs_dat_i[0] I
+wbs_dat_i[10] I
+wbs_dat_i[11] I
+wbs_dat_i[12] I
+wbs_dat_i[13] I
+wbs_dat_i[14] I
+wbs_dat_i[15] I
+wbs_dat_i[16] I
+wbs_dat_i[17] I
+wbs_dat_i[18] I
+wbs_dat_i[19] I
+wbs_dat_i[1] I
+wbs_dat_i[20] I
+wbs_dat_i[21] I
+wbs_dat_i[22] I
+wbs_dat_i[23] I
+wbs_dat_i[24] I
+wbs_dat_i[25] I
+wbs_dat_i[26] I
+wbs_dat_i[27] I
+wbs_dat_i[28] I
+wbs_dat_i[29] I
+wbs_dat_i[2] I
+wbs_dat_i[30] I
+wbs_dat_i[31] I
+wbs_dat_i[3] I
+wbs_dat_i[4] I
+wbs_dat_i[5] I
+wbs_dat_i[6] I
+wbs_dat_i[7] I
+wbs_dat_i[8] I
+wbs_dat_i[9] I
+wbs_dat_o[0] O
+wbs_dat_o[10] O
+wbs_dat_o[11] O
+wbs_dat_o[12] O
+wbs_dat_o[13] O
+wbs_dat_o[14] O
+wbs_dat_o[15] O
+wbs_dat_o[16] O
+wbs_dat_o[17] O
+wbs_dat_o[18] O
+wbs_dat_o[19] O
+wbs_dat_o[1] O
+wbs_dat_o[20] O
+wbs_dat_o[21] O
+wbs_dat_o[22] O
+wbs_dat_o[23] O
+wbs_dat_o[24] O
+wbs_dat_o[25] O
+wbs_dat_o[26] O
+wbs_dat_o[27] O
+wbs_dat_o[28] O
+wbs_dat_o[29] O
+wbs_dat_o[2] O
+wbs_dat_o[30] O
+wbs_dat_o[31] O
+wbs_dat_o[3] O
+wbs_dat_o[4] O
+wbs_dat_o[5] O
+wbs_dat_o[6] O
+wbs_dat_o[7] O
+wbs_dat_o[8] O
+wbs_dat_o[9] O
+wbs_sel_i[0] I
+wbs_sel_i[1] I
+wbs_sel_i[2] I
+wbs_sel_i[3] I
+wbs_stb_i I
+wbs_we_i I
+
+*D_NET *24 0.704874
+*CONN
+*P io_in[30] I
+*I *419:io_frequency[0] I *D PWMaudio
+*CAP
+1 io_in[30] 0.000751787
+2 *419:io_frequency[0] 0.000596481
+3 *24:13 0.00207073
+4 *24:11 0.00147425
+5 *24:9 0.0184564
+6 *24:7 0.0192082
+7 *419:io_frequency[0] *65:9 9.19699e-05
+8 *24:9 *25:9 1.42713e-05
+9 *24:9 *27:9 0.0624286
+10 *24:9 *62:19 0.0924754
+11 *24:9 *64:15 0.00359495
+12 *24:9 *65:13 0.0218308
+13 *24:13 *25:13 0.22121
+14 *24:13 *27:13 0.000108855
+15 *24:13 *62:15 0.223001
+16 *24:13 *65:9 0.0163433
+17 *24:13 *67:9 0.0212167
+*RES
+1 io_in[30] *24:7 10.665 
+2 *24:7 *24:9 533.33 
+3 *24:9 *24:11 4.5 
+4 *24:11 *24:13 192.42 
+5 *24:13 *419:io_frequency[0] 16.6854 
+*END
+
+*D_NET *25 0.670506
+*CONN
+*P io_in[31] I
+*I *419:io_frequency[1] I *D PWMaudio
+*CAP
+1 io_in[31] 0.000871927
+2 *419:io_frequency[1] 0.000422077
+3 *25:13 0.00158713
+4 *25:11 0.00116506
+5 *25:9 0.00752914
+6 *25:7 0.00840107
+7 *419:io_frequency[1] *419:clk 7.0024e-05
+8 *419:io_frequency[1] *419:io_frequency[2] 7.70562e-05
+9 *25:9 *26:9 0.0753163
+10 *25:9 *27:9 3.81966e-06
+11 *25:9 *62:19 0.0882104
+12 *25:9 *67:13 0.00660693
+13 *25:13 *26:13 0.220541
+14 *25:13 *27:13 8.06153e-05
+15 *25:13 *31:13 0.0211084
+16 *25:13 *68:9 0.0172908
+17 *24:9 *25:9 1.42713e-05
+18 *24:13 *25:13 0.22121
+*RES
+1 io_in[31] *25:7 11.385 
+2 *25:7 *25:9 465.58 
+3 *25:9 *25:11 4.5 
+4 *25:11 *25:13 190.664 
+5 *25:13 *419:io_frequency[1] 16.7046 
+*END
+
+*D_NET *26 0.602274
+*CONN
+*P io_in[32] I
+*I *419:io_frequency[2] I *D PWMaudio
+*CAP
+1 io_in[32] 0.000941259
+2 *419:io_frequency[2] 0.000486893
+3 *26:13 0.00169723
+4 *26:11 0.00121034
+5 *26:9 0.0275681
+6 *26:7 0.0285094
+7 *419:io_frequency[2] *419:io_frequency[7] 7.0024e-05
+8 *26:9 io_oeb[34] 6.39754e-05
+9 *26:9 io_oeb[37] 0.00039316
+10 *26:9 *27:9 0
+11 *26:9 *29:11 0.000555176
+12 *26:9 *30:9 0.00559485
+13 *26:13 *27:13 0.218307
+14 *26:13 *28:13 0.0209425
+15 *419:io_frequency[1] *419:io_frequency[2] 7.70562e-05
+16 *25:9 *26:9 0.0753163
+17 *25:13 *26:13 0.220541
+*RES
+1 io_in[32] *26:7 11.745 
+2 *26:7 *26:9 397.829 
+3 *26:9 *26:11 4.5 
+4 *26:11 *26:13 190.053 
+5 *26:13 *419:io_frequency[2] 16.9939 
+*END
+
+*D_NET *27 0.429086
+*CONN
+*P io_in[33] I
+*I *419:io_frequency[3] I *D PWMaudio
+*CAP
+1 io_in[33] 0.000708628
+2 *419:io_frequency[3] 0.000892831
+3 *27:13 0.0280689
+4 *27:11 0.0271761
+5 *27:9 0.021617
+6 *27:7 0.0223257
+7 *419:io_frequency[3] *419:io_frequency[4] 6.74432e-05
+8 *419:io_frequency[3] *419:io_frequency[7] 3.4702e-05
+9 *419:io_frequency[3] *65:9 0.000984205
+10 *27:9 *31:9 0.00379611
+11 *27:9 *68:13 0.00457465
+12 *27:13 *30:13 0.0164125
+13 *27:13 *69:9 0.0214988
+14 *24:9 *27:9 0.0624286
+15 *24:13 *27:13 0.000108855
+16 *25:9 *27:9 3.81966e-06
+17 *25:13 *27:13 8.06153e-05
+18 *26:9 *27:9 0
+19 *26:13 *27:13 0.218307
+*RES
+1 io_in[33] *27:7 10.305 
+2 *27:7 *27:9 330.078 
+3 *27:9 *27:11 4.5 
+4 *27:11 *27:13 188.678 
+5 *27:13 *419:io_frequency[3] 19.8932 
+*END
+
+*D_NET *28 0.490216
+*CONN
+*P io_in[34] I
+*I *419:io_frequency[4] I *D PWMaudio
+*CAP
+1 io_in[34] 0.000844982
+2 *419:io_frequency[4] 0.000445594
+3 *28:13 0.00155067
+4 *28:11 0.00110508
+5 *28:9 0.0113817
+6 *28:7 0.0122267
+7 *419:io_frequency[4] *419:io_frequency[6] 7.46342e-05
+8 *28:9 *30:9 1.89952e-05
+9 *28:9 *31:9 2.40933e-06
+10 *28:9 *62:19 0.0116836
+11 *28:9 *65:13 0.0463021
+12 *28:9 *67:13 0.0262092
+13 *28:9 *68:13 2.32439e-05
+14 *28:13 *30:13 0.178216
+15 *28:13 *31:13 0.178915
+16 *28:13 *69:9 0.000205505
+17 *419:io_frequency[3] *419:io_frequency[4] 6.74432e-05
+18 *26:13 *28:13 0.0209425
+*RES
+1 io_in[34] *28:7 11.025 
+2 *28:7 *28:9 261.63 
+3 *28:9 *28:11 4.5 
+4 *28:11 *28:13 445.41 
+5 *28:13 *419:io_frequency[4] 7.785 
+*END
+
+*D_NET *29 0.147053
+*CONN
+*P io_in[35] I
+*I *419:io_frequency[5] I *D PWMaudio
+*CAP
+1 io_in[35] 0.00111138
+2 *419:io_frequency[5] 0.00178132
+3 *29:17 0.0239075
+4 *29:15 0.0221262
+5 *29:13 0.04823
+6 *29:11 0.0493414
+7 *26:9 *29:11 0.000555176
+*RES
+1 io_in[35] *29:11 17.8039 
+2 *29:11 *29:13 185.7 
+3 *29:13 *29:15 4.5 
+4 *29:15 *29:17 181.231 
+5 *29:17 *419:io_frequency[5] 23.265 
+*END
+
+*D_NET *30 0.42784
+*CONN
+*P io_in[36] I
+*I *419:io_frequency[6] I *D PWMaudio
+*CAP
+1 io_in[36] 0.000983645
+2 *419:io_frequency[6] 0.000515603
+3 *30:13 0.00156797
+4 *30:11 0.00105236
+5 *30:9 0.00865248
+6 *30:7 0.00963613
+7 *30:9 io_oeb[37] 0.00477932
+8 *30:9 *67:13 0.022174
+9 *30:13 *69:9 0.178161
+10 *419:io_frequency[4] *419:io_frequency[6] 7.46342e-05
+11 *26:9 *30:9 0.00559485
+12 *27:13 *30:13 0.0164125
+13 *28:9 *30:9 1.89952e-05
+14 *28:13 *30:13 0.178216
+*RES
+1 io_in[36] *30:7 11.745 
+2 *30:7 *30:9 125.73 
+3 *30:9 *30:11 4.5 
+4 *30:11 *30:13 443.61 
+5 *30:13 *419:io_frequency[6] 7.965 
+*END
+
+*D_NET *31 0.407706
+*CONN
+*P io_in[37] I
+*I *419:io_frequency[7] I *D PWMaudio
+*CAP
+1 io_in[37] 0.000665652
+2 *419:io_frequency[7] 0.000453935
+3 *31:13 0.00177946
+4 *31:11 0.00132553
+5 *31:9 0.00429833
+6 *31:7 0.00496398
+7 *31:9 *68:13 0.0101372
+8 *31:13 *68:9 0.179967
+9 *31:13 *69:9 0.000188556
+10 *419:io_frequency[2] *419:io_frequency[7] 7.0024e-05
+11 *419:io_frequency[3] *419:io_frequency[7] 3.4702e-05
+12 *25:13 *31:13 0.0211084
+13 *27:9 *31:9 0.00379611
+14 *28:9 *31:9 2.40933e-06
+15 *28:13 *31:13 0.178915
+*RES
+1 io_in[37] *31:7 9.945 
+2 *31:7 *31:9 57.33 
+3 *31:9 *31:11 4.5 
+4 *31:11 *31:13 448.65 
+5 *31:13 *419:io_frequency[7] 7.605 
+*END
+
+*D_NET *40 0.191543
+*CONN
+*P io_oeb[10] O
+*I *419:io_oeb_low O *D PWMaudio
+*CAP
+1 io_oeb[10] 0.0567925
+2 *419:io_oeb_low 0.0389791
+3 *40:7 0.0567925
+4 *40:5 0.0389791
+*RES
+1 *419:io_oeb_low *40:5 301.005 
+2 *40:5 *40:7 4.5 
+3 *40:7 io_oeb[10] 455.265 
+*END
+
+*D_NET *62 0.494577
+*CONN
+*P io_oeb[30] O
+*I *419:io_oeb_high[0] O *D PWMaudio
+*CAP
+1 io_oeb[30] 0.000811857
+2 *419:io_oeb_high[0] 0.000357325
+3 *62:19 0.00587058
+4 *62:17 0.00505873
+5 *62:15 0.031661
+6 *62:13 0.0320183
+7 *62:15 *78:9 0.00108067
+8 *62:19 io_oeb[31] 0.00234803
+9 *24:9 *62:19 0.0924754
+10 *24:13 *62:15 0.223001
+11 *25:9 *62:19 0.0882104
+12 *28:9 *62:19 0.0116836
+*RES
+1 *419:io_oeb_high[0] *62:13 16.1261 
+2 *62:13 *62:15 216.016 
+3 *62:15 *62:17 4.5 
+4 *62:17 *62:19 487.681 
+5 *62:19 io_oeb[30] 11.025 
+*END
+
+*D_NET *63 0.122534
+*CONN
+*P io_oeb[31] O
+*I *419:io_oeb_high[1] O *D PWMaudio
+*CAP
+1 io_oeb[31] 0.00449903
+2 *419:io_oeb_high[1] 0.000727667
+3 *63:9 0.0521606
+4 *63:7 0.0483892
+5 *63:9 *64:9 0.0144098
+6 *62:19 io_oeb[31] 0.00234803
+*RES
+1 *419:io_oeb_high[1] *63:7 9.765 
+2 *63:7 *63:9 435.69 
+3 *63:9 io_oeb[31] 42.075 
+*END
+
+*D_NET *64 0.137824
+*CONN
+*P io_oeb[32] O
+*I *419:io_oeb_high[2] O *D PWMaudio
+*CAP
+1 io_oeb[32] 0.000955549
+2 *419:io_oeb_high[2] 0.000573763
+3 *64:15 0.00619461
+4 *64:9 0.0583804
+5 *64:7 0.0537151
+6 *24:9 *64:15 0.00359495
+7 *63:9 *64:9 0.0144098
+*RES
+1 *419:io_oeb_high[2] *64:7 8.685 
+2 *64:7 *64:9 479.25 
+3 *64:9 *64:15 49.23 
+4 *64:15 io_oeb[32] 6.165 
+*END
+
+*D_NET *65 0.388044
+*CONN
+*P io_oeb[33] O
+*I *419:io_oeb_high[3] O *D PWMaudio
+*CAP
+1 io_oeb[33] 0.000775651
+2 *419:io_oeb_high[3] 0.000341176
+3 *65:13 0.0187784
+4 *65:11 0.0180027
+5 *65:9 0.0302509
+6 *65:7 0.030592
+7 *65:9 *67:9 0.189458
+8 *65:9 *68:9 0.000123394
+9 *65:9 *69:9 7.41135e-05
+10 *65:13 *68:13 0.0140957
+11 *419:io_frequency[0] *65:9 9.19699e-05
+12 *419:io_frequency[3] *65:9 0.000984205
+13 *24:9 *65:13 0.0218308
+14 *24:13 *65:9 0.0163433
+15 *28:9 *65:13 0.0463021
+*RES
+1 *419:io_oeb_high[3] *65:7 7.065 
+2 *65:7 *65:9 474.93 
+3 *65:9 *65:11 4.5 
+4 *65:11 *65:13 283.59 
+5 *65:13 io_oeb[33] 10.665 
+*END
+
+*D_NET *66 0.273491
+*CONN
+*P io_oeb[34] O
+*I *419:io_oeb_high[4] O *D PWMaudio
+*CAP
+1 io_oeb[34] 0.0010289
+2 *419:io_oeb_high[4] 5.6405e-05
+3 *66:15 0.115662
+4 *66:13 0.114633
+5 *66:11 0.020995
+6 *66:9 0.0210514
+7 *26:9 io_oeb[34] 6.39754e-05
+*RES
+1 *419:io_oeb_high[4] *66:9 9.405 
+2 *66:9 *66:11 171.543 
+3 *66:11 *66:13 4.5 
+4 *66:13 *66:15 204.027 
+5 *66:15 io_oeb[34] 16.6018 
+*END
+
+*D_NET *67 0.464219
+*CONN
+*P io_oeb[35] O
+*I *419:io_oeb_high[5] O *D PWMaudio
+*CAP
+1 io_oeb[35] 0.000914314
+2 *419:io_oeb_high[5] 0.000380128
+3 *67:13 0.00500634
+4 *67:11 0.00409202
+5 *67:9 0.00163263
+6 *67:7 0.00201276
+7 *67:9 *68:9 0.183374
+8 *67:9 *69:9 0.00114219
+9 *24:13 *67:9 0.0212167
+10 *25:9 *67:13 0.00660693
+11 *28:9 *67:13 0.0262092
+12 *30:9 *67:13 0.022174
+13 *65:9 *67:9 0.189458
+*RES
+1 *419:io_oeb_high[5] *67:7 7.245 
+2 *67:7 *67:9 472.05 
+3 *67:9 *67:11 4.5 
+4 *67:11 *67:13 147.69 
+5 *67:13 io_oeb[35] 11.385 
+*END
+
+*D_NET *68 0.421355
+*CONN
+*P io_oeb[36] O
+*I *419:io_oeb_high[6] O *D PWMaudio
+*CAP
+1 io_oeb[36] 0.00071558
+2 *419:io_oeb_high[6] 0.00041908
+3 *68:13 0.00353232
+4 *68:11 0.00281674
+5 *68:9 0.00151299
+6 *68:7 0.00193207
+7 *68:9 *69:9 0.000840208
+8 *25:13 *68:9 0.0172908
+9 *27:9 *68:13 0.00457465
+10 *28:9 *68:13 2.32439e-05
+11 *31:9 *68:13 0.0101372
+12 *31:13 *68:9 0.179967
+13 *65:9 *68:9 0.000123394
+14 *65:13 *68:13 0.0140957
+15 *67:9 *68:9 0.183374
+*RES
+1 *419:io_oeb_high[6] *68:7 7.425 
+2 *68:7 *68:9 458.01 
+3 *68:9 *68:11 4.5 
+4 *68:11 *68:13 79.83 
+5 *68:13 io_oeb[36] 10.305 
+*END
+
+*D_NET *69 0.295082
+*CONN
+*P io_oeb[37] O
+*I *419:io_oeb_high[7] O *D PWMaudio
+*CAP
+1 io_oeb[37] 0.00197202
+2 *419:io_oeb_high[7] 0.000493511
+3 *69:9 0.0350351
+4 *69:7 0.0335566
+5 *69:9 *78:9 0.00218219
+6 *69:9 *313:13 0.0145594
+7 *69:9 *314:13 0
+8 *26:9 io_oeb[37] 0.00039316
+9 *27:13 *69:9 0.0214988
+10 *28:13 *69:9 0.000205505
+11 *30:9 io_oeb[37] 0.00477932
+12 *30:13 *69:9 0.178161
+13 *31:13 *69:9 0.000188556
+14 *65:9 *69:9 7.41135e-05
+15 *67:9 *69:9 0.00114219
+16 *68:9 *69:9 0.000840208
+*RES
+1 *419:io_oeb_high[7] *69:7 8.145 
+2 *69:7 *69:9 551.43 
+3 *69:9 io_oeb[37] 28.935 
+*END
+
+*D_NET *78 0.290803
+*CONN
+*P io_out[10] O
+*I *419:io_pwm_1 O *D PWMaudio
+*CAP
+1 io_out[10] 0.00479151
+2 *419:io_pwm_1 0.000341176
+3 *78:13 0.0912117
+4 *78:11 0.0864202
+5 *78:9 0.0522171
+6 *78:7 0.0525583
+7 *62:15 *78:9 0.00108067
+8 *69:9 *78:9 0.00218219
+*RES
+1 *419:io_pwm_1 *78:7 7.065 
+2 *78:7 *78:9 427.05 
+3 *78:9 *78:11 4.5 
+4 *78:11 *78:13 667.53 
+5 *78:13 io_out[10] 42.525 
+*END
+
+*D_NET *313 0.234177
+*CONN
+*P wb_clk_i I
+*I *419:clk I *D PWMaudio
+*CAP
+1 wb_clk_i 0.00012694
+2 *419:clk 0.000648708
+3 *313:13 0.0218739
+4 *313:11 0.0213521
+5 *313:13 *314:13 0.175546
+6 *419:io_frequency[1] *419:clk 7.0024e-05
+7 *69:9 *313:13 0.0145594
+*RES
+1 wb_clk_i *313:11 5.625 
+2 *313:11 *313:13 439.11 
+3 *313:13 *419:clk 9.225 
+*END
+
+*D_NET *314 0.236089
+*CONN
+*P wb_rst_i I
+*I *419:reset I *D PWMaudio
+*CAP
+1 wb_rst_i 0.000165892
+2 *419:reset 0.000687936
+3 *314:13 0.0301059
+4 *314:11 0.0295839
+5 *69:9 *314:13 0
+6 *313:13 *314:13 0.175546
+*RES
+1 wb_rst_i *314:11 5.805 
+2 *314:11 *314:13 450.81 
+3 *314:13 *419:reset 9.405 
+*END
