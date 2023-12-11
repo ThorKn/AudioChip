@@ -24,7 +24,7 @@ exec> report_check_types \
         -format end \
         -violators
 design: caravel
-time: Mon Dec 11 17:49:16 UTC 2023
+time: Mon Dec 11 22:40:45 UTC 2023
 
 --------------------------------------------------------------------------------------------
 REPORT

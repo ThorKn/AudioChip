@@ -76,16 +76,20 @@ PWMaudio pwmaudio (
 	.vss(vss),	// User area 1 digital ground
 `endif
 
-    .io_pwm_1(io_out[10]),
-    .io_frequency (io_in[37:30]),
+    .io_pwm_1       (io_out[10]),
+    .io_pwm_2       (io_out[11]),
+    .io_frequency   (io_in[37:26]),
+    .io_note_length (io_in[25:23]),
+    .io_adsr_switch (io_in[22]),
+    .io_loop        (io_in[21]),
+    .io_trigger     (io_in[20]),
+    .io_adsr_choice (io_in[19:17]),
 
     .clk(wb_clk_i),
     .reset(wb_rst_i),
 
-    // IO Pads
-
-    .io_oeb_high(io_oeb[37:30]),
-    .io_oeb_low(io_oeb[10])
+    .io_oeb_high(io_oeb[37:17]),
+    .io_oeb_low(io_oeb[11:10])
 );
 
 endmodule	// user_project_wrapper

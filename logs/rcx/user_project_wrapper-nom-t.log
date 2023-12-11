@@ -251,9 +251,9 @@ exec> read_def /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user
 [INFO ODB-0127] Reading DEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user_project_wrapper.def
 [INFO ODB-0128] Design: user_project_wrapper
 [INFO ODB-0130]     Created 418 pins.
-[INFO ODB-0131]     Created 1 components and 22 component-terminals.
+[INFO ODB-0131]     Created 1 components and 50 component-terminals.
 [INFO ODB-0132]     Created 2 special nets and 2 connections.
-[INFO ODB-0133]     Created 416 nets and 20 connections.
+[INFO ODB-0133]     Created 416 nets and 48 connections.
 [INFO ODB-0134] Finished DEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/user_project_wrapper.def
 exec> define_process_corner -ext_model_index 0 X
 [INFO RCX-0431] Defined process_corner X with ext_model_index 0
@@ -262,20 +262,20 @@ exec> extract_parasitics  -ext_model_file /home/moss/eda_tools_gf180_audiopwm/pd
 [INFO RCX-0008] extracting parasitics of user_project_wrapper ...
 [INFO RCX-0435] Reading extraction model file /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.tech//openlane/rules.openrcx.gf180mcuD.nom ...
 [INFO RCX-0436] RC segment generation user_project_wrapper (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 89 rc segments
+[INFO RCX-0040] Final 223 rc segments
 [INFO RCX-0439] Coupling Cap extraction user_project_wrapper ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0043] 206 wires to be extracted
-[INFO RCX-0442] 18% completion -- 39 wires have been extracted
-[INFO RCX-0442] 28% completion -- 59 wires have been extracted
-[INFO RCX-0442] 40% completion -- 83 wires have been extracted
-[INFO RCX-0442] 47% completion -- 97 wires have been extracted
-[INFO RCX-0442] 55% completion -- 115 wires have been extracted
-[INFO RCX-0442] 70% completion -- 145 wires have been extracted
-[INFO RCX-0442] 89% completion -- 184 wires have been extracted
-[INFO RCX-0442] 93% completion -- 193 wires have been extracted
-[INFO RCX-0442] 100% completion -- 206 wires have been extracted
-[INFO RCX-0045] Extract 416 nets, 109 rsegs, 109 caps, 66 ccs
+[INFO RCX-0043] 313 wires to be extracted
+[INFO RCX-0442] 20% completion -- 64 wires have been extracted
+[INFO RCX-0442] 26% completion -- 82 wires have been extracted
+[INFO RCX-0442] 35% completion -- 111 wires have been extracted
+[INFO RCX-0442] 41% completion -- 130 wires have been extracted
+[INFO RCX-0442] 53% completion -- 168 wires have been extracted
+[INFO RCX-0442] 68% completion -- 213 wires have been extracted
+[INFO RCX-0442] 90% completion -- 282 wires have been extracted
+[INFO RCX-0442] 95% completion -- 298 wires have been extracted
+[INFO RCX-0442] 100% completion -- 313 wires have been extracted
+[INFO RCX-0045] Extract 416 nets, 271 rsegs, 271 caps, 140 ccs
 [INFO RCX-0015] Finished extracting user_project_wrapper.
 exec> write_spef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/user_project_wrapper/openlane-signoff/spef/user_project_wrapper.nom.spef
 [INFO RCX-0016] Writing SPEF ...

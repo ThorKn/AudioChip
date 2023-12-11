@@ -456,7 +456,7 @@ set_timing_derate -early [expr 1-$derate]
 set_timing_derate -late [expr 1+$derate]
 exec> report_checks \
         -path_delay min \
-        -through _b0371c0600000000_p_Instance \
+        -through _f050d50600000000_p_Instance \
         -format full_clock_expanded \
         -fields {slew cap input_pins nets fanout} \
         -no_line_splits \
@@ -467,7 +467,7 @@ exec> report_checks \
          >> /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/caravel/openlane-signoff/timing/t-min/mprj-min.rpt
 exec> report_checks \
         -path_delay max \
-        -through _b0371c0600000000_p_Instance \
+        -through _f050d50600000000_p_Instance \
         -format full_clock_expanded \
         -fields {slew cap input_pins nets fanout} \
         -no_line_splits \
@@ -485,7 +485,7 @@ exec> report_check_types \
         -violators >> /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/caravel/openlane-signoff/timing/t-min/summary.log
 exec> report_parasitic_annotation -report_unannotated > /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/caravel/openlane-signoff/timing/t-min/unannotated.log
 Found 5076 unannotated drivers.
-Found 940 partially unannotated drivers.
+Found 968 partially unannotated drivers.
 there are missing spefs. check the log for ALLOW_MISSING_SPEF
 the following macros don't have spefs
 caravel

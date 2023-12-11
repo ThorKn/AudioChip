@@ -5075,7 +5075,7 @@ Found 5076 unannotated drivers.
  padframe/user2_vssd_pad/DVDD
  padframe/user2_vssd_pad/DVSS
  padframe/user2_vssd_pad/VDD
-Found 940 partially unannotated drivers.
+Found 968 partially unannotated drivers.
  chip_core/_17336_/Z
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/D[0]
  chip_core/_17346_/Z
@@ -5551,9 +5551,36 @@ Found 940 partially unannotated drivers.
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/D[1]
  chip_core/hold500/Z
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/D[2]
+ chip_core/input13/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input1_I/I
+  chip_core/mprj/pwmaudio/input1/I
+ chip_core/input15/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input3_I/I
+  chip_core/mprj/pwmaudio/input3/I
+ chip_core/input17/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input21_I/I
+  chip_core/mprj/pwmaudio/input21/I
+ chip_core/input18/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input17_I/I
+  chip_core/mprj/pwmaudio/input17/I
+ chip_core/input19/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input4_I/I
+  chip_core/mprj/pwmaudio/input4/I
+ chip_core/input20/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input18_I/I
+  chip_core/mprj/pwmaudio/input18/I
+ chip_core/input21/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input19_I/I
+  chip_core/mprj/pwmaudio/input19/I
+ chip_core/input23/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input5_I/I
+  chip_core/mprj/pwmaudio/input5/I
+ chip_core/input24/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input8_I/I
+  chip_core/mprj/pwmaudio/input8/I
  chip_core/input29/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input2_I/I
-  chip_core/mprj/pwmaudio/input2/I
+  chip_core/mprj/pwmaudio/ANTENNA_input12_I/I
+  chip_core/mprj/pwmaudio/input12/I
  chip_core/max_length1163/Z
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/A[1]
  chip_core/max_length1510/Z
@@ -5563,18 +5590,42 @@ Found 940 partially unannotated drivers.
  chip_core/max_length1516/Z
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/D[5]
  chip_core/max_length2058/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input1_I/I
-  chip_core/mprj/pwmaudio/input1/I
- chip_core/mprj/pwmaudio/PWMaudio_11/ZN
- chip_core/mprj/pwmaudio/PWMaudio_12/Z
- chip_core/mprj/pwmaudio/PWMaudio_13/Z
- chip_core/mprj/pwmaudio/PWMaudio_14/Z
- chip_core/mprj/pwmaudio/PWMaudio_15/Z
- chip_core/mprj/pwmaudio/PWMaudio_16/Z
- chip_core/mprj/pwmaudio/PWMaudio_17/Z
- chip_core/mprj/pwmaudio/PWMaudio_18/Z
- chip_core/mprj/pwmaudio/PWMaudio_19/Z
- chip_core/mprj/pwmaudio/output10/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input11_I/I
+  chip_core/mprj/pwmaudio/input11/I
+ chip_core/max_length2062/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input10_I/I
+  chip_core/mprj/pwmaudio/input10/I
+ chip_core/max_length2065/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input9_I/I
+  chip_core/mprj/pwmaudio/input9/I
+ chip_core/max_length2075/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input20_I/I
+  chip_core/mprj/pwmaudio/input20/I
+ chip_core/mprj/pwmaudio/PWMaudio_25/ZN
+ chip_core/mprj/pwmaudio/PWMaudio_26/ZN
+ chip_core/mprj/pwmaudio/PWMaudio_27/Z
+ chip_core/mprj/pwmaudio/PWMaudio_28/Z
+ chip_core/mprj/pwmaudio/PWMaudio_29/Z
+ chip_core/mprj/pwmaudio/PWMaudio_30/Z
+ chip_core/mprj/pwmaudio/PWMaudio_31/Z
+ chip_core/mprj/pwmaudio/PWMaudio_32/Z
+ chip_core/mprj/pwmaudio/PWMaudio_33/Z
+ chip_core/mprj/pwmaudio/PWMaudio_34/Z
+ chip_core/mprj/pwmaudio/PWMaudio_35/Z
+ chip_core/mprj/pwmaudio/PWMaudio_36/Z
+ chip_core/mprj/pwmaudio/PWMaudio_37/Z
+ chip_core/mprj/pwmaudio/PWMaudio_38/Z
+ chip_core/mprj/pwmaudio/PWMaudio_39/Z
+ chip_core/mprj/pwmaudio/PWMaudio_40/Z
+ chip_core/mprj/pwmaudio/PWMaudio_41/Z
+ chip_core/mprj/pwmaudio/PWMaudio_42/Z
+ chip_core/mprj/pwmaudio/PWMaudio_43/Z
+ chip_core/mprj/pwmaudio/PWMaudio_44/Z
+ chip_core/mprj/pwmaudio/PWMaudio_45/Z
+ chip_core/mprj/pwmaudio/PWMaudio_46/Z
+ chip_core/mprj/pwmaudio/PWMaudio_47/Z
+ chip_core/mprj/pwmaudio/output23/Z
+ chip_core/mprj/pwmaudio/output24/Z
  chip_core/output100/Z
   padframe/mprj_pads\[23\]/PDRV1
  chip_core/output101/Z
@@ -6467,8 +6518,8 @@ Found 940 partially unannotated drivers.
  chip_core/wire1523/Z
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/D[7]
  chip_core/wire1741/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input9_I/I
-  chip_core/mprj/pwmaudio/input9/I
+  chip_core/mprj/pwmaudio/ANTENNA_input22_I/I
+  chip_core/mprj/pwmaudio/input22/I
  chip_core/wire1742/Z
   chip_core/soc.core.sram.ram512x32.RAM00/RAM/CEN
   chip_core/soc.core.sram.ram512x32.RAM01/RAM/CEN
@@ -6476,23 +6527,26 @@ Found 940 partially unannotated drivers.
   chip_core/soc.core.sram.ram512x32.RAM02/RAM/CEN
   chip_core/soc.core.sram.ram512x32.RAM03/RAM/CEN
  chip_core/wire2044/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input8_I/I
-  chip_core/mprj/pwmaudio/input8/I
- chip_core/wire2046/Z
   chip_core/mprj/pwmaudio/ANTENNA_input7_I/I
   chip_core/mprj/pwmaudio/input7/I
- chip_core/wire2047/Z
+ chip_core/wire2046/Z
   chip_core/mprj/pwmaudio/ANTENNA_input6_I/I
   chip_core/mprj/pwmaudio/input6/I
+ chip_core/wire2047/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input16_I/I
+  chip_core/mprj/pwmaudio/input16/I
  chip_core/wire2049/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input5_I/I
-  chip_core/mprj/pwmaudio/input5/I
+  chip_core/mprj/pwmaudio/ANTENNA_input15_I/I
+  chip_core/mprj/pwmaudio/input15/I
  chip_core/wire2050/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input4_I/I
-  chip_core/mprj/pwmaudio/input4/I
+  chip_core/mprj/pwmaudio/ANTENNA_input14_I/I
+  chip_core/mprj/pwmaudio/input14/I
  chip_core/wire2052/Z
-  chip_core/mprj/pwmaudio/ANTENNA_input3_I/I
-  chip_core/mprj/pwmaudio/input3/I
+  chip_core/mprj/pwmaudio/ANTENNA_input13_I/I
+  chip_core/mprj/pwmaudio/input13/I
+ chip_core/wire2110/Z
+  chip_core/mprj/pwmaudio/ANTENNA_input2_I/I
+  chip_core/mprj/pwmaudio/input2/I
  chip_core/wire847/Z
   chip_core/soc.core.sram.ram512x32.RAM00/RAM/GWEN
   chip_core/soc.core.sram.ram512x32.RAM01/RAM/GWEN

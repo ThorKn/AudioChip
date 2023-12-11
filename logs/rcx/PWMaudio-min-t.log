@@ -250,10 +250,10 @@ The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/moss/eda_tool
 exec> read_def /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/PWMaudio.def
 [INFO ODB-0127] Reading DEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/PWMaudio.def
 [INFO ODB-0128] Design: PWMaudio
-[INFO ODB-0130]     Created 22 pins.
-[INFO ODB-0131]     Created 66191 components and 222789 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 220956 connections.
-[INFO ODB-0133]     Created 563 nets and 1833 connections.
+[INFO ODB-0130]     Created 50 pins.
+[INFO ODB-0131]     Created 67976 components and 232263 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 228096 connections.
+[INFO ODB-0133]     Created 1241 nets and 4167 connections.
 [INFO ODB-0134] Finished DEF file: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/def/PWMaudio.def
 exec> define_process_corner -ext_model_index 0 X
 [INFO RCX-0431] Defined process_corner X with ext_model_index 0
@@ -262,18 +262,18 @@ exec> extract_parasitics  -ext_model_file /home/moss/eda_tools_gf180_audiopwm/pd
 [INFO RCX-0008] extracting parasitics of PWMaudio ...
 [INFO RCX-0435] Reading extraction model file /home/moss/eda_tools_gf180_audiopwm/pdk/gf180mcuD/libs.tech//openlane/rules.openrcx.gf180mcuD.min ...
 [INFO RCX-0436] RC segment generation PWMaudio (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 2031 rc segments
+[INFO RCX-0040] Final 4741 rc segments
 [INFO RCX-0439] Coupling Cap extraction PWMaudio ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0043] 3410 wires to be extracted
-[INFO RCX-0442] 14% completion -- 497 wires have been extracted
-[INFO RCX-0442] 53% completion -- 1808 wires have been extracted
-[INFO RCX-0442] 99% completion -- 3392 wires have been extracted
-[INFO RCX-0045] Extract 563 nets, 2594 rsegs, 2594 caps, 3799 ccs
+[INFO RCX-0043] 7728 wires to be extracted
+[INFO RCX-0442] 14% completion -- 1156 wires have been extracted
+[INFO RCX-0442] 50% completion -- 3910 wires have been extracted
+[INFO RCX-0442] 99% completion -- 7712 wires have been extracted
+[INFO RCX-0045] Extract 1241 nets, 5982 rsegs, 5982 caps, 9865 ccs
 [INFO RCX-0015] Finished extracting PWMaudio.
 exec> write_spef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/PWMaudio/openlane-signoff/spef/PWMaudio.min.spef
 [INFO RCX-0016] Writing SPEF ...
-[INFO RCX-0443] 563 nets finished
+[INFO RCX-0443] 1241 nets finished
 [INFO RCX-0017] Finished writing SPEF ...
 exec> read_spef /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/PWMaudio/openlane-signoff/spef/PWMaudio.min.spef
 spef: /home/moss/eda_tools_gf180_audiopwm/caravel_user_project/signoff/PWMaudio/openlane-signoff/spef/PWMaudio.min.spef
